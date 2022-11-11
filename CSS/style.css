@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background: white;
+    align-items: center;
+}
+
+
+.abouts{
+    display: inline-block;
+    background-color: #1E232A;
+    text-align: center;
+    margin-right: 50%;
+    border: solid black;
+    colo: green;
+}
+
+
+
+.container {
+    right: 30px;
+    display: inline-block;
+    text-align: center;
+    /* margin-top: 20%; */
+    margin-left: 800px;
+    /* padding: 32px 69px 77px 35px; */
+    /* box-sizing: border-box; */
+    /* padding: 50px; */
+    
+}
+
+.headerr {
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+#mainimage {
+    box-sizing: border-box;
+    margin-right: 400px;
+    float: inline-end;
+}
