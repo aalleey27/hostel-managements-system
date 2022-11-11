@@ -1,42 +1,107 @@
-* {
-    box-sizing: border-box;
-    padding: 0%;
+*{
+    color: rgb(0, 0, 0);
     margin: 0%;
-    background: white;
-    align-items: center;
+    padding: 0%;
+    
+   /* background: url('/backg.jpg'); 
+   background-repeat: no-repeat; */
 }
-
-
-.abouts{
+.left {
+    font-size: 30px;
+    /* border: solid red; */
     display: inline-block;
-    background-color: #1E232A;
-    text-align: center;
-    margin-right: 50%;
-    border: solid black;
-    colo: green;
+    margin-left: 34px ;
+    position: absolute;
+
 }
 
+.right{
+    border: solid green;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 20px;
 
+}
+
+.mid{
+    text-decoration: none;
+    border: solid yellow;
+    /* display: block; */
+    width: 36%;
+    margin: 29px auto;
+    margin-top: 0px;
+    display: flex;
+
+}
+.navbar {
+    /* display: inline-block; */
+}
+
+.navbar li {
+    text-transform: none;
+    color: red;
+    display: inline-block;
+    padding: 10px;
+}
+.navbar li a{
+    padding: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
 
 .container {
-    right: 30px;
+    background-image: url('/backg.jpg');
+    position: absolute;
     display: inline-block;
-    text-align: center;
-    /* margin-top: 20%; */
-    margin-left: 800px;
-    /* padding: 32px 69px 77px 35px; */
-    /* box-sizing: border-box; */
-    /* padding: 50px; */
-    
+    /* border: solid rgb(0, 0, 0); */
+    right: 0px;
+    top: 200px;
+    padding: 200px;
+    margin-right: 0px;
 }
 
-.headerr {
-    margin-left: 80px;
-    margin-right: 100px;
+#bt1 {
+    padding: 5px;
+    border: none;
+    margin: 5px ;
+    margin-left: 50px;
 }
 
-#mainimage {
-    box-sizing: border-box;
-    margin-right: 400px;
-    float: inline-end;
+#bt2 {
+    padding: 5px;
+    border: none;
+}
+
+.image {
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px ;
+}
+
+#image1 {
+    position: absolute;
+    /* border: solid black; */
+    display: inline-block;
+    height: 98%;
+
+}
+.header {
+    margin-top: 1px;
+    display: flex;
+    background-color: pink;
+}
+
+.logo{
+    display: inline-block;
+    height: 10%;
+    /* border: solid black; */
+    width: 10px;
+    background-size: 10px;
+}
+
+#backg{
+    position: absolute;
+    display: inline-block;
 }
