@@ -18,7 +18,6 @@
 }
 
 .right{
-    border: solid green;
     display: inline-block;
     position: absolute;
     right: 3px;
@@ -28,7 +27,6 @@
 
 .mid {
     text-decoration: none;
-    border: solid yellow;
     /* display: block; */
     width: 36%;
     margin: 29px auto;
