@@ -16,7 +16,7 @@
 }
 
 .right{
-    border: solid green;
+    /* border: solid green; */
     display: inline-block;
     position: absolute;
     right: 3px;
