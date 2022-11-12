@@ -1,3 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 body { 
-    background-color: black;
+
+    background-color: rgb(14, 12, 12);
+    color: white;
+}
+#h3{
+    position: absolute;
+    display: inline-block;
+    margin-left: 480px;
+    margin-top: 10%;
+    font-size: 50px;
+
+
+}
+
+#h6{
+    position: absolute;
+    display: inline-block;
+    margin-top: 19%;
+    margin-left: 42%;
+    font-size: 20px;
+}
+
+.form1 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 43%;
+}
+#email {
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+
+#pass{
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+#btn {
+    margin-left: 69px;
+    margin-top: 20px;
+    padding: 7px;
+    border: solid rgb(47, 153, 33);
+}
+
+#btn:hover {
+    color: aqua;
 }
