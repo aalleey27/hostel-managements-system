@@ -26,7 +26,7 @@
 
 .mid{
     text-decoration: none;
-    border: solid yellow;
+    /* border: solid yellow; */
     /* display: block; */
     width: 36%;
     margin: 29px auto;
