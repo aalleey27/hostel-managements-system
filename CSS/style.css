@@ -1,22 +1,24 @@
-*{
-    color: rgb(0, 0, 0);
+* {
+    /* color: rgb(0, 0, 0); */
     margin: 0%;
     padding: 0%;
-    
-   /* background: url('/backg.jpg'); 
+
+    /* background: url('/backg.jpg'); 
    background-repeat: no-repeat; */
 }
+
 .left {
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 20px;
     /* border: solid red; */
     display: inline-block;
-    margin-left: 34px ;
+    margin-left: 34px;
     position: absolute;
 
 }
 
-.right{
-    border: solid green;
+.right {
+    /* border: solid green; */
     display: inline-block;
     position: absolute;
     right: 3px;
@@ -24,9 +26,9 @@
 
 }
 
-.mid{
+.mid {
     text-decoration: none;
-    border: solid yellow;
+    /* border: solid yellow; */
     /* display: block; */
     width: 36%;
     margin: 29px auto;
@@ -34,6 +36,7 @@
     display: flex;
 
 }
+
 .navbar {
     /* display: inline-block; */
 }
@@ -44,7 +47,8 @@
     display: inline-block;
     padding: 10px;
 }
-.navbar li a{
+
+.navbar li a {
     padding: 40px;
     font-size: 20px;
     text-decoration: none;
@@ -52,20 +56,22 @@
 }
 
 .container {
+    color: aqua;
     background-image: url('/backg.jpg');
     position: absolute;
     display: inline-block;
     /* border: solid rgb(0, 0, 0); */
     right: 0px;
-    top: 200px;
-    padding: 200px;
+    top: 73px;
+    padding: 251px;
     margin-right: 0px;
+    padding-bottom: 290px;
 }
 
 #bt1 {
     padding: 5px;
     border: none;
-    margin: 5px ;
+    margin: 5px;
     margin-left: 50px;
 }
 
@@ -77,23 +83,24 @@
 .image {
     position: absolute;
     display: inline-block;
-    margin-left: 10px ;
+    margin-left: 10px;
 }
 
 #image1 {
     position: absolute;
     /* border: solid black; */
     display: inline-block;
-    height: 98%;
+    height: 105%;
 
 }
+
 .header {
     margin-top: 1px;
     display: flex;
     background-color: pink;
 }
 
-.logo{
+.logo {
     display: inline-block;
     height: 10%;
     /* border: solid black; */
@@ -101,7 +108,7 @@
     background-size: 10px;
 }
 
-#backg{
+#backg {
     position: absolute;
     display: inline-block;
 }
