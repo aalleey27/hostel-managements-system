@@ -14,3 +14,33 @@ body { background-color: black; text-align: center; }
     background-color: rgba(231, 182, 18, 0.87);
    font-size: large;
   }
+  
+  #bt1 {
+    width: 130px;
+    padding: 5px;
+  }
+  #bt2:hover {
+    border-radius: 10px;
+    color: aqua;
+    background-color: gray;
+  }
+
+  #bt2 {
+    background-color: rgb(245, 228, 228);
+    width: 130px;
+    padding: 5px;
+    margin-top: 4px;
+  }
+
+  #bt1:hover {
+    border-radius: 10px;
+    background-color: grey;
+    color: aqua;
+
+  }
+
+
+
+  @keyframes my-animation {
+    
+  }
