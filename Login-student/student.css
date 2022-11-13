@@ -46,10 +46,15 @@ body {
 }
 
 #btn {
-    margin-left: 69px;
+    margin-left: 39px;
     margin-top: 20px;
-    padding: 7px;
-    border: solid rgb(47, 153, 33);
+    padding: 11px;
+    padding-left: 43px;
+    text-align: center;
+    padding-right: 40px;
+    background-color: #2e1a69;
+    color: white;
+}
 }
 
 #btn:hover {

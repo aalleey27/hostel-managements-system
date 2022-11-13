@@ -22,7 +22,7 @@ body { background-color: black; text-align: center; }
   #bt2:hover {
     border-radius: 10px;
     color: aqua;
-    background-color: gray;
+    background-color: #2e1a69;
   }
 
   #bt2 {
@@ -34,13 +34,10 @@ body { background-color: black; text-align: center; }
 
   #bt1:hover {
     border-radius: 10px;
-    background-color: grey;
+    background-color: #2e1a69;
     color: aqua;
 
   }
 
 
 
-  @keyframes my-animation {
-    
-  }
